@@ -1,1 +1,1 @@
-export { default } from './components/FlipCard.js';
+export { default } from './components/FlipCard';
