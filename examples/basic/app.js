@@ -1,6 +1,6 @@
 import React from 'react';
 import DOM from 'react-dom';
-import FlipCard from '../../lib/main';
+import FlipCard from '../../src/main';
 
 
 const App = React.createClass({
