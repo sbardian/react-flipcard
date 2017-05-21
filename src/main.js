@@ -1,1 +1,1 @@
-module.exports = require('./components/FlipCard');
+export { default } from './components/FlipCard.js';
