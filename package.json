@@ -4,7 +4,8 @@
   "description": "React flip card component",
   "main": "lib/main.js",
   "scripts": {
-    "build": "babel src --out-dir lib"
+    "prod": "babel src --out-dir lib",
+    "umd": "babel --plugins transform-es2015-modules-umd --out-dir UMD"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "react-addons-test-utils": "^15.5.1",
